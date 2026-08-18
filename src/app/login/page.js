@@ -115,7 +115,7 @@ export default function Login() {
           <h1 className="logo-title">Kibozera WorkSync</h1>
           <p className="logo-subtitle">
             {isCEOSetup
-              ? "Initial Setup: Register CEO Account"
+              ? "Create CEO Account"
               : "Welcome Back , Team!"}
           </p>
         </div>
@@ -131,7 +131,7 @@ export default function Login() {
             marginBottom: "1.5rem",
             lineHeight: "1.4"
           }}>
-            <strong>Welcome to  kibozera WorkSync!</strong> No CEO account was detected. Please create the master administrator account. Subsequent employee accounts will be created from the CEO dashboard.
+            <strong>Welcome to  kibozera WorkSync!</strong>Please create the CEO account. Employee accounts will be created from the CEO dashboard.
           </div>
         )}
 
@@ -226,7 +226,7 @@ export default function Login() {
             style={{ width: "100%", marginTop: "1rem" }}
             disabled={submitting}
           >
-            {submitting ? "Processing secure handshake..." : isCEOSetup ? "Establish CEO Master Key" : "Authenticate Session"}
+            {submitting ? "Processing secure handshake..." : isCEOSetup ? "Create CEO Account" : "Authenticate Session"}
           </button>
         </form>
 
