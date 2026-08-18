@@ -131,7 +131,7 @@ export default function Login() {
             marginBottom: "1.5rem",
             lineHeight: "1.4"
           }}>
-            <strong>Welcome to  kibozera WorkSync!</strong>Please create the CEO account. Employee accounts will be created from the CEO dashboard.
+            <strong>Welcome to  kibozera WorkSync! </strong>Please create the CEO account. Employee accounts will be created from the CEO dashboard.
           </div>
         )}
 
