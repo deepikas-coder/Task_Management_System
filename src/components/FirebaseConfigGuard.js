@@ -104,7 +104,7 @@ export default function FirebaseConfigGuard({ children }) {
             e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.08)";
           }}
         >
-          Reset Database Connection
+          
         </button>
       </>
     );
